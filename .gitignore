@@ -120,7 +120,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 frontend/.env
 .venv
 env/
@@ -199,7 +198,6 @@ frontend/dist
 
 # misc
 .DS_Store
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -233,3 +231,4 @@ containers/runtime/Dockerfile
 containers/runtime/project.tar.gz
 containers/runtime/code
 **/node_modules/
+config.bat
